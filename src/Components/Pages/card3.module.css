@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+
+.body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .card{
+    border-radius: 25px;
+    /* background-color: #FFF; */
+    /* background-color: rgb(207, 137, 136); */
+    background-color: #ff4122;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    border: none;
+    width: 300px;
+    height: 430px;
+  }
+  .imagecontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+  }
+  .cardcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 34px;
+  }
+
+  .cardcontent h2{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+    color: aliceblue;
+
+  }
+  .imagecontent{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+  }
+  .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 114%;
+    width: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSNk6LyRMf3faWZPpXMACOPA7rAw6gBdAP9A&usqp=CAU);
+    border-radius: 25px 25px 0 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .overlay::before,
+  .overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: skyblue;
+    
+  }
+  .overlay::after{
+    border-radius: 0 25px 0 0;
+    /* background-color: #FFF; */
+    /* background-color: rgb(207, 137, 136); */
+    background-color: #ff4122;
+   
+
+    
+  }
+  .overlay1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 114%;
+    width: 100%;
+    background-image: url(https://corpanix.com/wp-content/uploads/2020/04/35224-1024x730.jpg);
+    border-radius: 25px 25px 0 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .overlay1::before,
+  .overlay1::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: skyblue;
+  }
+  .overlay1::after{
+    border-radius: 0 25px 0 0;
+    /* background-color: #FFF; */
+    background-color: #ff4122;
+  }
+  .overlay2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 114%;
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-vector/hand-drawn-data-driven-illustration_23-2149676073.jpg?w=2000);
+    border-radius: 25px 25px 0 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .overlay2::before,
+  .overlay2::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: skyblue;
+  }
+  .overlay2::after{
+    border-radius: 0 25px 0 0;
+    /* background-color: #FFF; */
+    background-color: #ff4122;
+  }
+  .cardimage{
+    position: relative;
+    height: 100px;
+    width: 100px;
+     border-radius: 50%; 
+    background: #FFF;
+    padding: 3px;
+  }
+  .cardimage{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    /* border: 4px solid #f45e4062; */
+    border: 4px solid #1104689d;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+ .list{
+     padding-top: 7px;
+     text-align: left;
+     cursor: pointer;
+     font-family: 'Kanit', sans-serif;
+     font-size: 13px;
+     color: aliceblue;
+     list-style:disc;
+     
+     
+
+ }
+ .list:hover {
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+ }
+  /* .item{
+    padding-top: 12px;
+    text-align: left;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+     font-size: 12px;
+    font-weight: bold; 
+ }  */
+ .comp{
+    
+    height: 180px;
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 20px;
+    
+    text-align: left;
+ }
+ /* padding-top: 4px; */
+
+
+
+
+
+/* .cont{
+    width: 100%;
+    height:100vh;
+    padding: 30px;
+    padding-bottom: 20px;
+    margin-top: -80px;
+} */
+
+/* .hpcard3{
+    height: 380px;
+    width: 260px;
+    background-color: rgb(255, 255, 255);
+    clip-path:polygon(0px 135px, 100% 0, 100% 0, 100% 100%, 0 100%);
+    padding: 10px;
+    padding-top: 120px;
+    margin-top: -50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+.outerCircle{
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    border: 4px solid white;
+    position: relative;
+    top: 52px;
+    left: 97px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.hpTitle2{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.5px;
+    margin-left: 50px;
+    font-size: 17px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.hpTitle3{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.5px;
+    margin-left: 69px;
+    font-size: 17px;
+}
+
+.hpdata{
+    width: 100%;
+    
+    background-color: white;
+    text-align: left;
+    padding: 10px;
+    background-color: antiquewhite;
+    height: 140px
+}
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400&display=swap');
+.dataLi{
+    width: 100%;
+   list-style-type:disc;
+   font-family: 'Mukta', sans-serif;
+}
+.dataLi:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: rgba(241, 83, 55, 0.699);
+}
+
+
+.outerDataImgCon1 {
+    width: 100%;
+    height: 103px;
+    margin-left: 16px;
+    
+}
+
+.outerDataImgCon2 {
+    width: 100%;
+    height: 103px;
+    margin-left: 64px;
+    
+}
+
+.outerDataImgCon3 {
+    width: 100%;
+    height: 103px;
+    margin-left: 64px;
+    
+}
+
+.outerDataImg{
+    height: 108px;
+    width: fit-content;
+} */
+
+

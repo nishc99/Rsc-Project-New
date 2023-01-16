@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lora:ital,wght@0,400;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@1,400;1,800&family=Tangerine&family=Titillium+Web:wght@300;400;700&family=Varela+Round&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.umaincontainer{
+
+    background-color: rgb(238, 5, 5);
+    position: absolute;
+     width: 100%;
+     height: 100vh;
+}
+.uinnerc{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(247, 247, 247);
+    position: absolute;
+    top: -150px;
+    left: -55px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.umaintitle{
+    margin-top: 187px;
+    margin-left: 63px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2.3px;
+    color: rgb(252, 22, 22);
+    font-size: 15px;
+ 
+}
+
+
+
+
+.allcards{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    margin-left: 60px;
+    margin: 12px;
+    padding-left: 60px;
+    margin-top: 41px;
+    height: 500px;
+  
+}
+
+
+
+.maincontainer{
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+
+.loginCard{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}

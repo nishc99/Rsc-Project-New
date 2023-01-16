@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lora:ital,wght@0,400;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@1,400;1,800&family=Tangerine&family=Titillium+Web:wght@300;400;700&family=Varela+Round&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.maincontainer{
+    /* background-image: URL("./Assets/maroonbg5.jpg"); */
+    background-color: rgb(224, 53, 53);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.innerc{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(247, 247, 247);
+    position: absolute;
+    top: -150px;
+    left: -55px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.maintitle{
+    margin-top: 187px;
+    margin-left: 70px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2.3px;
+    color: rgb(252, 22, 22);
+    font-size: 17px;
+ 
+}
+
+
+
+
+.allcards{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    margin-left: 60px;
+    margin: 12px;
+    padding-left: 60px;
+    margin-top: 41px;
+    height: 500px;
+  
+}
+
+
+
+.maincontainer{
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+
+
+
+
+/* //back */
+
+
+
+
